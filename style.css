@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  background-color: white;
+  /*height: auto;*/
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  /*height: auto;*/
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.topContainer1 {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  top: 0px;
+  width: 100%;
+  padding: 5px;
+  font-size: 30px;
+  align-items: center;
+}
+
+#icon1 {
+  padding: 12px;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+}
+
+#icon2 {
+  padding: 14px;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+}
+
+#icon1:hover,
+#icon2:hover {
+  background-color: rgb(251, 240, 240);
+}
+
+.topContainer2 {
+
+}
+
+.topContainer3 {
+  
+}
+
+.centerColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 700px;
+  padding: 2px;
+}
+
+.searchb {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  border: none;
+  padding: 20px;
+}
+
+.searchb form {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  border: 1px solid rgb(206, 206, 206);
+  border-radius: 20px;
+  width: 550px;
+  /* ??? suddenly, width in px works now ??? 
+  contemplate upon min-width and resizing */
+  height: 45px;
+  resize: horizontal;
+}
+
+.searchb form input[type="text"] {
+  overflow: hidden;
+  width: 100%;
+  border: none;
+}
+
+.searchb form:hover {
+  border: 1px solid rgb(218, 218, 218);
+  box-shadow: 2px 2px 4px 4px rgba(128, 128, 128, 0.2);
+}
+
+.searchb button[type="submit"] {
+  padding: 6px 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  background-color: inherit;
+}
+
+.searchb input[type="text"] {
+  padding: 6px 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 17px;
+  border: none;
+  background-color: inherit;
+  overflow: hidden;
+  outline: none;
+}
+
+.bottom {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: gray;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+.fLeft {
+  display: flex;
+  justify-content: flex-start;
+  padding: 13px;
+  padding-left: 30px;
+  width: 50%;
+  font-size: 14px;
+  background-color: rgb(251, 240, 240);
+}
+
+.fRight {
+  display: flex;
+  justify-content: flex-end;
+  padding: 13px;
+  padding-right: 30px;
+  width: 50%;
+  font-size: 14px;
+  background-color: rgb(251, 240, 240);
+}
+
+@media screen and (max-width: 650px) {
+  .fLeft,
+  .fRight {
+    width: 100%;
+    justify-content: center;
+  }
+}
