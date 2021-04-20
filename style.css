@@ -48,6 +48,20 @@ a:hover {
   align-items: center;
 }
 
+.tCLeft {
+  padding: 21px;
+  padding-bottom: opx;
+}
+
+#imgimg {
+  width: 92px;
+  height: 30px;
+}
+
+.tCMiddle {
+
+}
+
 #icon1 {
   padding: 12px;
   border-radius: 20px;
@@ -80,9 +94,9 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: left;
-  border: 1px solid rgb(206, 206, 206);
+  /*border: 1px solid rgb(206, 206, 206);*/
   border-radius: 20px;
-  width: 550px;
+  width: 690px;
   /* ??? suddenly, width in px works now ??? 
   contemplate upon min-width and resizing */
   height: 45px;
@@ -108,7 +122,7 @@ a:hover {
   margin-bottom: 0px;
   font-size: 17px;
   border: none;
-  border-left: 1px solid black;
+  border-left: 1px solid rgb(231, 231, 231);
   cursor: pointer;
   background-color: inherit;
   height: 35px;
@@ -123,6 +137,17 @@ a:hover {
   background-color: inherit;
   overflow: hidden;
   outline: none;
+}
+
+.metaTCR {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  width: 100%;
+}
+
+.tCRight {
+  padding: 15px;
 }
 
 .topContainer2 {
