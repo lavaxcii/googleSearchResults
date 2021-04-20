@@ -24,6 +24,11 @@ ul {
   padding: 0px;
 }
 
+ol {
+  margin: 0px;
+  padding: 0px;
+}
+
 li {
   display: inline;
 }
@@ -35,6 +40,10 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+#specialLi {
+  list-style-type: circle;
 }
 
 .topContainer1 {
@@ -59,26 +68,6 @@ a:hover {
 }
 
 .tCMiddle {
-
-}
-
-#icon1 {
-  padding: 12px;
-  border-radius: 20px;
-  border: none;
-  background-color: white;
-}
-
-#icon2 {
-  padding: 14px;
-  border-radius: 20px;
-  border: none;
-  background-color: white;
-}
-
-#icon1:hover,
-#icon2:hover {
-  background-color: rgb(251, 240, 240);
 }
 
 .searchb {
@@ -147,28 +136,73 @@ a:hover {
 }
 
 .tCRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
   padding: 15px;
 }
 
 .topContainer2 {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   flex-direction: row;
   top: 0px;
   width: 100%;
   padding: 5px;
+  height: 45px;
   font-size: 30px;
   align-items: center;
+  border: 2px solid black;
+}
+
+#icon1,
+#icon2 {
+  padding: 12px;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+#icon1:hover,
+#icon2:hover {
+  background-color: rgb(251, 240, 240);
+}
+
+.tC2SearchOptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-left: 160px;
+}
+
+.tC2SettToo {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-left: 80px;
 }
 
 .topContainer3 {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   flex-direction: row;
   width: 100%;
   padding: 5px;
+  height: 43px;
   font-size: 30px;
   align-items: center;
+  border: 2px solid green;
+}
+
+.nrOfResults {
+  margin-left: 170px;
+}
+
+#nrResultsTxt {
+  font-size: 15px;
 }
 
 .centerColumn {
@@ -177,12 +211,20 @@ a:hover {
   align-items: center;
   justify-content: center;
   width: 100%;
-  margin-left: -250px;
+  margin-left: -225px;
   padding: 2px;
   min-height: 100%;
 }
 
-.searchRBox, .searchRBox2, .searchRBox3, .searchRBox4 {
+.searchRBox,
+.searchRBox2,
+.searchRBox3,
+.searchRBox4,
+.searchRBox5,
+.searchRBox6,
+.searchRBox7,
+.searchRBox8,
+.searchRBox9 {
   display: flex;
   flex-direction: column;
   justify-content: left;
@@ -199,7 +241,27 @@ a:hover {
 }
 
 .searchRBox4 {
-  border: 2px solid purple;
+  border: 2px solid orange;
+}
+
+.searchRBox5 {
+  border: 2px solid red;
+}
+
+.searchRBox6 {
+  border: 2px solid blue;
+}
+
+.searchRBox7 {
+  border: 2px solid black;
+}
+
+.searchRBox8 {
+  border: 2px solid gray;
+}
+
+.searchRBox9 {
+  border: 2px solid green;
 }
 
 .bottom {
@@ -209,6 +271,16 @@ a:hover {
   flex-wrap: wrap;
   background-color: gray;
   width: 100%;
+}
+
+.bottomMoreSearchRes {
+  display: flex;
+  justify-content: flex-start;
+  padding: 13px;
+  padding-left: 30px;
+  width: 100%;
+  margin-left: 300px;
+  font-size: 14px;
 }
 
 .fLeft {
@@ -227,6 +299,16 @@ a:hover {
   padding: 13px;
   padding-right: 30px;
   width: 50%;
+  font-size: 14px;
+  background-color: rgb(251, 240, 240);
+}
+
+.bottomBottom {
+  display: flex;
+  justify-content: flex-start;
+  padding: 13px;
+  padding-right: 30px;
+  width: 100%;
   font-size: 14px;
   background-color: rgb(251, 240, 240);
 }
