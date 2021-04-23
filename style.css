@@ -236,6 +236,46 @@ a:hover {
   border: 2px solid red;
 }
 
+.TwitterBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 652px;
+  border: 2px solid black;
+}
+
+.boxContentT {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.dialog1,
+.dialog2,
+.dialog3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  width: 200px;
+  height: 270px;
+  padding: 8px;
+  margin: 5px;
+  overflow: hidden;
+}
+
+.dialog1 {
+  border: 1px solid red;
+}
+
+.dialog2 {
+  border: 1px solid green;
+}
+
+.dialog3 {
+  border: 1px solid blue;
+}
+
 .searchRBox3 {
   border: 2px solid green;
 }
