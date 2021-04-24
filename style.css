@@ -236,6 +236,12 @@ a:hover {
   border: 2px solid red;
 }
 
+#bottomLinkTags {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
 .TwitterBox {
   display: flex;
   flex-direction: column;
@@ -481,6 +487,7 @@ a:hover {
 
 #numbers1 {
   margin-left: 33px;
+  color: black;
 }
 
 #numbers2 {
@@ -520,6 +527,10 @@ a:hover {
 #numbers7:hover,
 #numbers8:hover  {
   text-decoration: underline;
+}
+
+#numbers1:hover {
+  text-decoration: none;
 }
 
 .bMSDown {
