@@ -257,6 +257,29 @@ a:hover {
   margin-left: 176px;
 }
 
+.lineBreak2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  flex-wrap: wrap;
+  width:750px;
+  margin-left: 110px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#lineFeed2 {
+  display: flex;
+  justify-items: flex-start;
+  align-items: center;
+  border: 1px solid rgb(218, 218, 218);
+  width: 594px;
+  height: 0px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+}
+
 .TwitterBox {
   display: flex;
   flex-direction: column;
