@@ -446,11 +446,86 @@ a:hover {
 .bottomMoreSearchRes {
   display: flex;
   justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: left;
   padding: 13px;
-  padding-left: 30px;
-  width: 100%;
-  padding-left: 300px;
+  width: 500px;
+  margin-left: 350px;
   font-size: 14px;
+}
+
+.bMSRUp {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.numberRow {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+#numbers1,
+#numbers2,
+#numbers3,
+#numbers4,
+#numbers5,
+#numbers6,
+#numbers7,
+#numbers8 {
+  display: flex;
+  margin-top: 0px;
+  color: blue;
+}
+
+#numbers1 {
+  margin-left: 33px;
+}
+
+#numbers2 {
+  margin-left: 12px;
+}
+
+#numbers3 {
+  margin-left: 12px;
+}
+
+#numbers4 {
+  margin-left: 10px;
+}
+
+#numbers5 {
+  margin-left: 10px;
+}
+
+#numbers6 {
+  margin-left: 10px;
+}
+
+#numbers7 {
+  margin-left: 12px;
+}
+
+#numbers8 {
+  margin-left: 12px;
+}
+
+#numbers1:hover,
+#numbers2:hover,
+#numbers3:hover,
+#numbers4:hover,
+#numbers5:hover,
+#numbers6:hover,
+#numbers7:hover,
+#numbers8:hover  {
+  text-decoration: underline;
+}
+
+.bMSDown {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
 }
 
 .bottom {
