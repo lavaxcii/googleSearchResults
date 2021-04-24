@@ -443,30 +443,33 @@ a:hover {
   outline: none;
 }
 
-.bottom {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: row;
-  flex-wrap: wrap;
-  background-color: gray;
-  width: 100%;
-}
-
 .bottomMoreSearchRes {
   display: flex;
   justify-content: flex-start;
   padding: 13px;
   padding-left: 30px;
   width: 100%;
-  margin-left: 300px;
+  padding-left: 300px;
   font-size: 14px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: rgb(251, 240, 240);
 }
 
 .fLeft {
   display: flex;
   justify-content: flex-start;
   padding: 13px;
-  margin-left: 180px;
+  padding-left: 193px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 0px;
   font-size: 14px;
   background-color: rgb(251, 240, 240);
 }
@@ -475,18 +478,37 @@ a:hover {
   display: flex;
   justify-content: flex-start;
   padding: 13px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
   font-size: 14px;
+  border-left:  1px solid  rgb(223, 223, 223);
   background-color: rgb(251, 240, 240);
 }
 
 .bottomBottom {
   display: flex;
   justify-content: flex-start;
-  padding: 13px;
+  padding: 18px;
+  padding-left: 193px;
+  padding-top: 7px;
   width: 100%;
-  margin-left: 180px;
   font-size: 14px;
+  border-top: 1px solid  rgb(223, 223, 223);
   background-color: rgb(251, 240, 240);
+}
+
+#bTxt {
+  color: rgb(112, 112, 112);
+}
+
+#bTxt2 {
+  color: rgb(112, 112, 112);
+}
+
+#bTxt2:hover {
+  color: rgb(64, 64, 64);
+  text-decoration: none;
 }
 
 @media screen and (max-width: 650px) {
