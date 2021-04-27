@@ -14,7 +14,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@150&display=swap" rel="stylesheet"> 
   <link href='https://css.gg/dice-5.css' rel='stylesheet'>
   <link href='https://css.gg/ghost-character.css' rel='stylesheet'>
-
+  <link href='https://css.gg/close.css' rel='stylesheet'>
+  <link href='https://css.gg/image.css' rel='stylesheet'>
+  <link href='https://css.gg/more-vertical-alt.css' rel='stylesheet'>
+  <link href='https://css.gg/play-button-r.css' rel='stylesheet'>
+  <link href='https://css.gg/trello.css' rel='stylesheet'>
+  <link href='https://css.gg/track.css' rel='stylesheet'>
 </head>
 <body>
 
@@ -25,8 +30,9 @@
     <div class="tCMiddle">
       <div class="searchb">
         <form action="/searchly.com">
-          <input type="text">
-          <button type="submit"><i class="fa fa-search"></i></button>
+          <input id="topSb1" type="text" placeholder="wiki" >
+          <button><i class="gg-close"></i></button>
+          <button type="submit" id="topSb2"><i class="fa fa-search"></i></button>
         </form>
       </div>
     </div>
@@ -40,17 +46,17 @@
 
   <div class="topContainer2">
     <div class="tC2SearchOptions">
-      <button id="icon1"><i class="gg-dice-5"></i>All</button>
-      <button id="icon2"><i class="gg-ghost-character"></i>Images</button>
-      <button id="icon1"><i class="gg-dice-5"></i>Videos</button>
-      <button id="icon2"><i class="gg-ghost-character"></i>Maps</button>
-      <button id="icon1"><i class="gg-dice-5"></i>Books</button>
-      <button id="icon2"><i class="gg-ghost-character"></i>More</button>
+      <button id="icon1"><i class="fa fa-search" style="margin-right: 6px"></i>All</button>
+      <button id="icon2"><i class="gg-image" style="margin-right: 6px"></i>Images</button>
+      <button id="icon1"><i class="gg-play-button-r" style="margin-right: 6px"></i>Videos</button>
+      <button id="icon2"><i class="gg-track" style="margin-right: 6px"></i></i>Maps</button>
+      <button id="icon1"><i class="gg-trello" style="margin-right: 6px"></i></i>Books</button>
+      <button id="icon2"><i class="gg-more-vertical-alt" style="margin-right: 6px"></i>More</button>
     </div>
 
     <div class="tC2SettToo">
-      <button id="icon1"><i class="gg-dice-5"></i>Settings</button>
-      <button id="icon2"><i class="gg-ghost-character"></i>Tools</button>
+      <button id="icon1">Settings</button>
+      <button id="icon2">Tools</button>
     </div>
   </div>
 
@@ -97,8 +103,6 @@
       </div>
     </div>
 
-
-    <!-- You need to configure css for this, separate from original -->
     <div class="dropdownMC33">
       <div class="dDHeader33"><h3>People Also Ask</h3></div>
   
@@ -140,7 +144,7 @@
     </div>
 
     <div class="lineBreak2">
-      <a id="lineFeed2"></a><p id="lineTxt">Feedback</p>
+      <a id="notSpan2"></a><p id="lineTxt">Feedback</p>
     </div>
 
     <div class="TwitterBox">
@@ -339,7 +343,7 @@
   </div>
 
   <div class="lineBreak">
-    <a id="lineFeed"></a><p id="lineTxt">Feedback</p>
+    <a id="notSpan"></a><p id="lineTxt">Feedback</p>
   </div>
 
   <div class="bottomCenterSearchSugg">
