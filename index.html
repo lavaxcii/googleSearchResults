@@ -20,6 +20,7 @@
   <link href='https://css.gg/play-button-r.css' rel='stylesheet'>
   <link href='https://css.gg/trello.css' rel='stylesheet'>
   <link href='https://css.gg/track.css' rel='stylesheet'>
+  <link href='https://css.gg/chevron-down.css' rel='stylesheet'>
 </head>
 <body>
 
@@ -46,12 +47,12 @@
 
   <div class="topContainer2">
     <div class="tC2SearchOptions">
-      <button id="icon1"><i class="fa fa-search" style="margin-right: 6px"></i>All</button>
-      <button id="icon2"><i class="gg-image" style="margin-right: 6px"></i>Images</button>
-      <button id="icon1"><i class="gg-play-button-r" style="margin-right: 6px"></i>Videos</button>
-      <button id="icon2"><i class="gg-track" style="margin-right: 6px"></i></i>Maps</button>
-      <button id="icon1"><i class="gg-trello" style="margin-right: 6px"></i></i>Books</button>
-      <button id="icon2"><i class="gg-more-vertical-alt" style="margin-right: 6px"></i>More</button>
+      <button id="icon111"><i class="fa fa-search" style="margin-right: 6px; font-size: 17px;"></i><a href="all.com" id="icon11111">All</a></button>
+      <button id="icon22"><i class="gg-image" style="margin-right: 6px; margin-top: 1px;"></i><a href="picturesqey.com" id="icon22222">Images</a></button>
+      <button id="icon11"><i class="gg-play-button-r" style="margin-right: 6px;"></i><a href="motionpicture.com" id="icon22222">Videos</a></button>
+      <button id="icon22"><i class="gg-track" style="margin-right: 6px; margin-top: 5px;"></i></i><a href="exactgeographyforyou.com" id="icon22222">Maps</a></button>
+      <button id="icon11"><i class="gg-trello" style="margin-right: 6px"></i></i><a href="smartypenwords.com" id="icon22222">Books</a></button>
+      <button id="icon22"><i class="gg-more-vertical-alt" style="margin-right: 6px; margin-top: 8px;"></i><a href="morilymore.com" id="icon22222">More</a></button>
     </div>
 
     <div class="tC2SettToo">
@@ -69,7 +70,7 @@
   <div class="centerColumn">
     <div class="searchRBox">
       <div id="topLink">
-        <p>https://en.wikipedia.org/wiki/Wiki › wiki › Wiki</p>
+        <p id="topLinkTxt"><b>https://en.wikipedia.org/wiki/Wiki</b> › wiki › Wiki<i class="gg-chevron-down" style="border-top: 3px;"></i></p>
       </div>
       <div id="headerLink">
         <a href="https://en.wikipedia.org/wiki/Wiki">Wiki - Wikipedia</a>
@@ -79,69 +80,79 @@
       </div>
       <div id="bottomLinkTags">
         <a href="https://en.wikipedia.org/wiki/Wiki_Wiki_Shuttle">Wiki Wiki Shuttle</a>
-        <a href="https://en.wikipedia.org/wiki/Personal_wiki">Personal Wiki</a>
-        <a href="https://en.wikipedia.org/wiki/The_Hidden_Wiki">The Hidden Wiki</a>
-        <a href="https://en.wikipedia.org/wiki/Semantic_wiki">Semantic</a>
+        <a href="https://en.wikipedia.org/wiki/Personal_wiki" id="bLT">· Personal Wiki</a>
+        <a href="https://en.wikipedia.org/wiki/The_Hidden_Wiki" id="bLT">· The Hidden Wiki</a>
+        <a href="https://en.wikipedia.org/wiki/Semantic_wiki" id="bLT">· Semantic</a>
       </div>
     </div>
 
     <div class="searchRBox2">
       <div id="topLink">
-        <p>https://en.wikipedia.org/wiki/Wiki › wiki › Wiki</p>
+        <p id="topLinkTxt"><b>https://www.wikipedia.org</b><i class="gg-chevron-down" style="border-top: 3px;"></i></p>
       </div>
       <div id="headerLink">
-        <a href="https://en.wikipedia.org/wiki/Wiki">Wiki - Wikipedia</a>
+        <a href="https://en.wikipedia.org/wiki/Wiki">Wikipedia</a>
       </div>
       <div id="boxContent">
-        <p>A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while ...</p>
+        <p>Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.</p>
       </div>
       <div id="bottomLinkTags">
-        <a href="https://en.wikipedia.org/wiki/Wiki_Wiki_Shuttle">Wiki Wiki Shuttle</a>
-        <a href="https://en.wikipedia.org/wiki/Personal_wiki">Personal Wiki</a>
-        <a href="https://en.wikipedia.org/wiki/The_Hidden_Wiki">The Hidden Wiki</a>
-        <a href="https://en.wikipedia.org/wiki/Semantic_wiki">Semantic</a>
+        <a href="https://en.wikipedia.org/wiki/Wiki_Wiki_Shuttle">Wikipedia</a>
+        <a href="https://en.wikipedia.org/wiki/Personal_wiki" id="bLT">· Godzilla v. Kong</a>
+        <a href="https://en.wikipedia.org/wiki/The_Hidden_Wiki" id="bLT">· The Falcon and the Winter...</a>
+        <a href="https://en.wikipedia.org/wiki/Semantic_wiki" id="bLT">· DMX (rapper)</a>
       </div>
     </div>
 
     <div class="dropdownMC33">
-      <div class="dDHeader33"><h3>People Also Ask</h3></div>
+      <div class="dDHeader33"><p style="margin-bottom: 3px; padding-bottom: 3px;">People Also Ask</p></div>
   
-      <div class="dropdown">
-        <button class="dropbtn">What does wiki mean?</button>
-        <div class="dropdown-content">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
-        </div>
+      <div class="dropdown11">
+        <ul class="menu">
+          <li id="liFlex1">
+            <input type="radio" name="menuopt" id="drop1" />
+            <label class="opener" for="drop1">What does wiki mean?</label>
+            <label class="closer" for="dropclose">What does wiki mean?</label>
+            <ul>
+              <li><a href="">Menu item 1</a></li>
+            </ul>
+            <i class="gg-chevron-down" style="border-top: 3px; margin-left: 445px; margin-bottom: 0px;"></i>
+          </li>
+
+          <li id="liFlex2">
+            <input type="radio" name="menuopt" id="drop2" />
+            <label class="opener" for="drop2">What is Wiki used for?</label>
+            <label class="closer" for="dropclose">What is Wiki used for?</label>
+            <ul>
+              <li><a href="">Menu item 1</a></li>
+            </ul>
+            <input type="radio" name="menuopt" id="dropclose" />
+            <i class="gg-chevron-down" style="border-top: 3px; margin-left: 447px; margin-bottom: 0px;"></i>
+          </li>
+
+          <li id="liFlex3">
+            <input type="radio" name="menuopt" id="drop3" />
+            <label class="opener" for="drop3">Is Wikipedia really dying?</label>
+            <label class="closer" for="dropclose">Is Wikipedia really dying?</label>
+            <ul>
+              <li><a href="">Menu item 1</a></li>
+            </ul>
+            <input type="radio" name="menuopt" id="dropclose" />
+            <i class="gg-chevron-down" style="border-top: 3px; margin-left: 423px; margin-bottom: 0px;"></i>
+          </li>
+
+          <li id="liFlex4">
+            <input type="radio" name="menuopt" id="drop4" />
+            <label class="opener" for="drop4">What are the 9 types of wiki sites?</label>
+            <label class="closer" for="dropclose">What are the 9 types of wiki sites?</label>
+            <ul>
+              <li><a href="">Menu item 1</a></li>
+            </ul>
+            <input type="radio" name="menuopt" id="dropclose" />
+            <i class="gg-chevron-down" style="border-top: 3px; margin-left: 350px; margin-bottom: 0px;"></i>
+          </li>
+        </ul>
       </div>
-    
-      <div class="dropdown">
-        <button class="dropbtn">What is Wiki used for?</button>
-        <div class="dropdown-content">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
-        </div>
-      </div>
-    
-      <div class="dropdown">
-        <button class="dropbtn">Is Wikipedia really dying?</button>
-        <div class="dropdown-content">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
-        </div>
-      </div>
-    
-      <div class="dropdown">
-        <button class="dropbtn">What are 9 types of wiki sites?</button>
-        <div class="dropdown-content">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
-        </div>
-      </div>
-    </div>
 
     <div class="lineBreak2">
       <a id="notSpan2"></a><p id="lineTxt">Feedback</p>
@@ -152,121 +163,73 @@
         <p>https://twitter.com/Wikipedia</p>
       </div>
       <div class="headerLinkT">
-        <a href="https://twitter.com/Wikipedia">Wikipedia (@Wikipedia) · Twitter</a>
+        <a href="https://twitter.com/Wikipedia" style="font-size: 18px;">Wikipedia (@Wikipedia) · Twitter</a>
       </div>
       <div class="boxContentT">
-        <div class="dialog1"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.<br><br>Twitter · 2 hours ago</p></div>
-        <div class="dialog2"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.<br><br>Twitter · 3 hours ago</p></div>
-        <div class="dialog3"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.<br><br>Twitter · 3 days ago</p></div>
+        <div class="dialog1"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.<p style="font-size: 12px;"><b>Twitter</b> · 2 hours ago</p></p></div>
+        <div class="dialog2"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.<p style="font-size: 12px;"><b>Twitter</b> · 3 hours ago</p></p></div>
+        <div class="dialog3"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.<p style="font-size: 12px;"><b>Twitter</b> · 3 days ago</p></p></div>
       </div>
     </div>
 
 
     <div class="searchRBox3">
       <div id="topLink">
-        <p>https://en.wikipedia.org/wiki/Wiki › wiki › Wiki</p>
+        <p id="topLinkTxt"><b>http://wiki.c2.com</b> › WikiWikiWeb<i class="gg-chevron-down" style="border-top: 3px;"></i></p>
       </div>
       <div id="headerLink">
-        <a href="https://en.wikipedia.org/wiki/Wiki">Wiki - Wikipedia</a>
+        <a href="https://en.wikipedia.org/wiki/Wiki">Wiki Wiki Web - C2 wiki</a>
       </div>
       <div id="boxContent">
-        <p>A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while ...</p>
-      </div>
-      <div id="bottomLinkTags">
-        <a href="https://en.wikipedia.org/wiki/Wiki_Wiki_Shuttle">Wiki Wiki Shuttle</a>
-        <a href="https://en.wikipedia.org/wiki/Personal_wiki">Personal Wiki</a>
-        <a href="https://en.wikipedia.org/wiki/The_Hidden_Wiki">The Hidden Wiki</a>
-        <a href="https://en.wikipedia.org/wiki/Semantic_wiki">Semantic</a>
+        <p>Wiki Wiki Web. This website and the software it runs on were created by WardCunningham for the PortlandPatternRepository. It is home to an ...</p>
       </div>
     </div>
 
     <div class="searchRBox4">
       <div id="topLink">
-        <p>https://en.wikipedia.org/wiki/Wiki › wiki › Wiki</p>
+        <p id="topLinkTxt"><b>https://www.britannica.com</b> › topic › wiki<i class="gg-chevron-down" style="border-top: 3px;"></i></p>
       </div>
       <div id="headerLink">
-        <a href="https://en.wikipedia.org/wiki/Wiki">Wiki - Wikipedia</a>
+        <a href="https://en.wikipedia.org/wiki/Wiki">Wiki | Web site | Britannica</a>
       </div>
       <div id="boxContent">
-        <p>A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while ...</p>
-      </div>
-      <div id="bottomLinkTags">
-        <a href="https://en.wikipedia.org/wiki/Wiki_Wiki_Shuttle">Wiki Wiki Shuttle</a>
-        <a href="https://en.wikipedia.org/wiki/Personal_wiki">Personal Wiki</a>
-        <a href="https://en.wikipedia.org/wiki/The_Hidden_Wiki">The Hidden Wiki</a>
-        <a href="https://en.wikipedia.org/wiki/Semantic_wiki">Semantic</a>
+        <p>Wiki, World Wide Web (WWW) site that can be modified or contributed to by users. Wikis can be dated to 1995, when American computer programmer Ward ...</p>
       </div>
     </div>
 
     <div class="searchRBox5">
       <div id="topLink">
-        <p>https://en.wikipedia.org/wiki/Wiki › wiki › Wiki</p>
+        <p id="topLinkTxt"><b>https://www.mindtools.com</b> › pages › article › how-to-c...<i class="gg-chevron-down" style="border-top: 3px;"></i></p>
       </div>
       <div id="headerLink">
-        <a href="https://en.wikipedia.org/wiki/Wiki">Wiki - Wikipedia</a>
+        <a href="https://en.wikipedia.org/wiki/Wiki">How to Create a Wiki - Learning Skills From MindTools.com</a>
       </div>
       <div id="boxContent">
-        <p>A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while ...</p>
-      </div>
-      <div id="bottomLinkTags">
-        <a href="https://en.wikipedia.org/wiki/Wiki_Wiki_Shuttle">Wiki Wiki Shuttle</a>
-        <a href="https://en.wikipedia.org/wiki/Personal_wiki">Personal Wiki</a>
-        <a href="https://en.wikipedia.org/wiki/The_Hidden_Wiki">The Hidden Wiki</a>
-        <a href="https://en.wikipedia.org/wiki/Semantic_wiki">Semantic</a>
+        <p>What Is a Wiki? A wiki is a website or online resource that can be edited by multiple users. Some wikis, such as Wikipedia, are publicly accessible. Others ...</p>
       </div>
     </div>
 
     <div class="searchRBox6">
       <div id="topLink">
-        <p>https://en.wikipedia.org/wiki/Wiki › wiki › Wiki</p>
+        <p id="topLinkTxt"><b>https://www.merriam-webster.com</b> › dictionary › wiki<i class="gg-chevron-down" style="border-top: 3px;"></i></p>
       </div>
       <div id="headerLink">
-        <a href="https://en.wikipedia.org/wiki/Wiki">Wiki - Wikipedia</a>
+        <a href="https://en.wikipedia.org/wiki/Wiki">Wiki | Definition of Wiki by Merriam-Webster</a>
       </div>
       <div id="boxContent">
-        <p>A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while ...</p>
-      </div>
-      <div id="bottomLinkTags">
-        <a href="https://en.wikipedia.org/wiki/Wiki_Wiki_Shuttle">Wiki Wiki Shuttle</a>
-        <a href="https://en.wikipedia.org/wiki/Personal_wiki">Personal Wiki</a>
-        <a href="https://en.wikipedia.org/wiki/The_Hidden_Wiki">The Hidden Wiki</a>
-        <a href="https://en.wikipedia.org/wiki/Semantic_wiki">Semantic</a>
+        <p>The software, whose name is based on a Hawaiian term for "quick," allows Web site visitors to contribute content to its pages and comment on and make changes ...</p>
       </div>
     </div>
 
     <div class="searchRBox7">
       <div id="topLink">
-        <p>https://en.wikipedia.org/wiki/Wiki › wiki › Wiki</p>
+        <p id="topLinkTxt"><b>https://help.blackboard.com</b> › Instructor › Interact › Wi...<i class="gg-chevron-down" style="border-top: 3px;"></i></p>
       </div>
       <div id="headerLink">
-        <a href="https://en.wikipedia.org/wiki/Wiki">Wiki - Wikipedia</a>
+        <a href="https://en.wikipedia.org/wiki/Wiki">Wikis | Blackboard Help</a>
       </div>
       <div id="boxContent">
-        <p>A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while ...</p>
-      </div>
-      <div id="bottomLinkTags">
-        <a href="https://en.wikipedia.org/wiki/Wiki_Wiki_Shuttle">Wiki Wiki Shuttle</a>
-        <a href="https://en.wikipedia.org/wiki/Personal_wiki">Personal Wiki</a>
-        <a href="https://en.wikipedia.org/wiki/The_Hidden_Wiki">The Hidden Wiki</a>
-        <a href="https://en.wikipedia.org/wiki/Semantic_wiki">Semantic</a>
-      </div>
-    </div>
-
-    <div class="searchRBox8">
-      <div id="topLink">
-        <p>https://en.wikipedia.org/wiki/Wiki › wiki › Wiki</p>
-      </div>
-      <div id="headerLink">
-        <a href="https://en.wikipedia.org/wiki/Wiki">Wiki - Wikipedia</a>
-      </div>
-      <div id="boxContent">
-        <p>A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while ...</p>
-      </div>
-      <div id="bottomLinkTags">
-        <a href="https://en.wikipedia.org/wiki/Wiki_Wiki_Shuttle">Wiki Wiki Shuttle</a>
-        <a href="https://en.wikipedia.org/wiki/Personal_wiki">Personal Wiki</a>
-        <a href="https://en.wikipedia.org/wiki/The_Hidden_Wiki">The Hidden Wiki</a>
-        <a href="https://en.wikipedia.org/wiki/Semantic_wiki">Semantic</a>
+        <p>Wikis allow course members to contribute and modify one or more pages of course-related materials and provide a means of sharing and collaboration. Course ...</p>
       </div>
     </div>
     
@@ -283,63 +246,68 @@
       <a href="https://ibb.co/kGkvxtn"><img src="https://i.ibb.co/CwNDzfd/Screenshot-2021-04-24-wiki-Google-Search-1.png" alt="Screenshot-2021-04-24-wiki-Google-Search-1" border="0"></a>
     </div>
 
-    <div class="searchRBox9">
+    <div class="searchRBox8">
       <div id="topLink">
-        <p>https://en.wikipedia.org/wiki/Wiki › wiki › Wiki</p>
+        <p id="topLinkTxt"><b>https://techterms.com</b> › definition › wiki<i class="gg-chevron-down" style="border-top: 3px;"></i></p>
       </div>
       <div id="headerLink">
-        <a href="https://en.wikipedia.org/wiki/Wiki">Wiki - Wikipedia</a>
+        <a href="https://en.wikipedia.org/wiki/Wiki">Wiki Definition - TechTerms</a>
       </div>
       <div id="boxContent">
-        <p>A wiki is essentially a database for creating, browsing, and searching through information. A wiki allows non-linear, evolving, complex, and networked text, while ...</p>
-      </div>
-      <div id="bottomLinkTags">
-        <a href="https://en.wikipedia.org/wiki/Wiki_Wiki_Shuttle">Wiki Wiki Shuttle</a>
-        <a href="https://en.wikipedia.org/wiki/Personal_wiki">Personal Wiki</a>
-        <a href="https://en.wikipedia.org/wiki/The_Hidden_Wiki">The Hidden Wiki</a>
-        <a href="https://en.wikipedia.org/wiki/Semantic_wiki">Semantic</a>
+        <p>A wiki is a Web site that allows users to add and update content on the site using their own Web browser. This is made possible by Wiki software that runs on the ...</p>
       </div>
     </div>
   </div>
 
-  <div class="dropdownMC">
-    <div class="dDHeader"><h3>Related Searches</h3></div>
+  <div class="dropdownMC33">
+    <div class="dDHeader33"><p style="margin-bottom: 3px; padding-bottom: 3px;">Related Searches</p>
+  </div>
 
-    <div class="dropdown">
-      <button class="dropbtn">Example of wikis</button>
-      <div class="dropdown-content">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-      </div>
-    </div>
-  
-    <div class="dropdown">
-      <button class="dropbtn">Public wiki sites</button>
-      <div class="dropdown-content">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-      </div>
-    </div>
-  
-    <div class="dropdown">
-      <button class="dropbtn">Enterprise wiki software</button>
-      <div class="dropdown-content">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-      </div>
-    </div>
-  
-    <div class="dropdown">
-      <button class="dropbtn">Wiki website</button>
-      <div class="dropdown-content">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-      </div>
-    </div>
+  <div class="dropdownMC">
+    <ul class="menu">
+      <li id="liFlex1">
+        <input type="radio" name="menuopt" id="drop1" />
+        <label class="opener" for="drop1">Example of wikis</label>
+        <label class="closer" for="dropclose">Example of wikis</label>
+        <ul>
+          <li><a href="">Menu item 1</a></li>
+        </ul>
+        <i class="gg-chevron-down" style="border-top: 3px; margin-left: 485px; margin-bottom: 0px;"></i>
+      </li>
+
+      <li id="liFlex2">
+        <input type="radio" name="menuopt" id="drop2" />
+        <label class="opener" for="drop2">Public wiki sites</label>
+        <label class="closer" for="dropclose">Public wiki sites</label>
+        <ul>
+          <li><a href="">Menu item 1</a></li>
+        </ul>
+        <input type="radio" name="menuopt" id="dropclose" />
+        <i class="gg-chevron-down" style="border-top: 3px; margin-left: 494px; margin-bottom: 0px;"></i>
+      </li>
+
+      <li id="liFlex3">
+        <input type="radio" name="menuopt" id="drop3" />
+        <label class="opener" for="drop3">Enterprise wiki software</label>
+        <label class="closer" for="dropclose">Enterprise wiki software</label>
+        <ul>
+          <li><a href="">Menu item 1</a></li>
+        </ul>
+        <input type="radio" name="menuopt" id="dropclose" />
+        <i class="gg-chevron-down" style="border-top: 3px; margin-left: 428px; margin-bottom: 0px;"></i>
+      </li>
+
+      <li id="liFlex4">
+        <input type="radio" name="menuopt" id="drop4" />
+        <label class="opener" for="drop4">Wiki website</label>
+        <label class="closer" for="dropclose">Wiki website</label>
+        <ul>
+          <li><a href="">Menu item 1</a></li>
+        </ul>
+        <input type="radio" name="menuopt" id="dropclose" />
+        <i class="gg-chevron-down" style="border-top: 3px; margin-left: 517px; margin-bottom: 0px;"></i>
+      </li>
+    </ul>
   </div>
 
   <div class="lineBreak">
@@ -415,16 +383,20 @@
 
   <div class="bottom">
     
-    <div class="fLeft">
-      <ul>
-        <li id="bTxt">Country</li>&nbsp&nbsp&nbsp
-      </ul>
-    </div>
-
-    <div class="fRight">
-      <ul>
-        <li id="bTxt"><b>YourExactLocationTM</b> - Based on your past activity - <a href="/weknowwhereuatgrin.com" id="bTxt2">Use precise location</a> - <a href="/readmorehowweknowlearless.com" id="bTxt2">Learn more</a></li>&nbsp&nbsp&nbsp
-      </ul>
+    <div class="bottomTop">
+      <div class="fLeft">
+        <ul>
+          <li id="bTxt">Country</li>&nbsp&nbsp&nbsp
+        </ul>
+      </div>
+    
+      <div class="fRight">
+        <ul>
+          <li id="bTxt"><b>YourExactLocationTM</b> - Based on your past activity - <a href="/weknowwhereuatgrin.com"
+              id="bTxt2">Use precise location</a> - <a href="/readmorehowweknowlearless.com" id="bTxt2">Learn more</a></li>
+          &nbsp&nbsp&nbsp
+        </ul>
+      </div>
     </div>
 
     <div class="bottomBottom">
