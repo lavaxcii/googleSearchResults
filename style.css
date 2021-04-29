@@ -176,6 +176,29 @@ a:hover {
   background-color: white;
 }
 
+#icon123 {
+  color:rgb(64, 64, 64);
+  text-decoration: none;
+}
+
+#icon211 {
+  text-decoration: none;
+  border: none;
+  background-color: white;
+}
+
+#icon211:hover {
+  text-decoration: none;
+  border: 1px solid rgb(155, 155, 155);
+  background-color: rgb(241, 241, 241);
+  box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.2);
+}
+
+#icon2112 {
+  text-decoration: none;
+  color:rgb(64, 64, 64);
+}
+
 #icon11,
 #icon22 {
   margin: 6px;
@@ -355,7 +378,11 @@ a:hover {
 #liFlex1,
 #liFlex2,
 #liFlex3,
-#liFlex4 {
+#liFlex4,
+#liFlex5,
+#liFlex6,
+#liFlex7,
+#liFlex8 {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -364,6 +391,19 @@ a:hover {
   padding-top: 10px;
   padding-bottom: 7px;
   width: 652px;
+}
+
+.dropdownMain {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+.chevronDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 465px;
 }
 
 #liFlex1 {
@@ -379,6 +419,22 @@ a:hover {
 }
 
 #liFlex4 {
+  border: none;
+}
+
+#liFlex5 {
+  border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+#liFlex6 {
+  border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+#liFlex7 {
+  border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+#liFlex8 {
   border: none;
 }
 
