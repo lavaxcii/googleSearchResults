@@ -415,14 +415,14 @@ a:hover {
 .dropdownMain {
   display: flex;
   flex-direction: column;
-  width: 350px;
+  width: 700px;
 }
 
 .chevronDiv {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  width: 465px;
+  width: 25px;
 }
 
 #liFlex1 {
