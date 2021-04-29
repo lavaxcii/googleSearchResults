@@ -609,6 +609,22 @@ a:hover {
   padding-left: 105px;
 }
 
+.imagesForWikiViewAll form:hover {
+  background-color: #F2F2F2;
+}
+
+.imagesForWikiViewAll form input[type="text"]:hover {
+  background-color: #F2F2F2;
+}
+
+.imagesForWikiViewAll button[type="submit"]:hover {
+  background-color: #F2F2F2;
+}
+
+.imagesForWikiViewAll input[type="text"]:hover {
+  background-color: #F2F2F2;
+}
+
 .imagesForWikiViewAll form {
   display: flex;
   flex-direction: row;
@@ -637,7 +653,7 @@ a:hover {
   font-size: 17px;
   border: none;
   cursor: pointer;
-  background-color: white;
+  background-color: inherit;
   height: 27px;
 }
 
